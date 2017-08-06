@@ -6,7 +6,6 @@ import { FormsModule } from '@angular/forms';
 import { AppComponent } from './app.component';
 import { NewPurchaseComponent } from './new-purchase/new-purchase.component';
 import { PurchaseListComponent } from './purchase-list/purchase-list.component';
-import {MdButtonModule, MdCheckboxModule, MdDatepickerModule} from '@angular/material';
 
 @NgModule({
   declarations: [
@@ -16,10 +15,7 @@ import {MdButtonModule, MdCheckboxModule, MdDatepickerModule} from '@angular/mat
   ],
   imports: [
     BrowserModule,
-    FormsModule,
-    MdButtonModule,
-    MdCheckboxModule,
-    MdDatepickerModule
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
